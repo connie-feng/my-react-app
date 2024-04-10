@@ -6,13 +6,14 @@ import ToDoList from './ToDoList.jsx'
 import Window from './Window.jsx'
 import DigitalClock from './DigitalClock.jsx'
 import ComponentA from './ComponentA.jsx'
+import Stopwatch from './Stopwatch.jsx'
 
 function App() {
 
   return (
     <>
+      <Stopwatch />
       <ComponentA />
-
       <DigitalClock />
       <Window />
       <ToDoList />
